@@ -1,0 +1,11 @@
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+[class*="card-deck"] {
+    width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .card-deck {width: 75%;}
+}
